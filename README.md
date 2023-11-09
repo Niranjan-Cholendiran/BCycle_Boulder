@@ -1,2 +1,12 @@
-# BCycle_Boulder
-This is a project as part of CSCI 5502 (Data Mining) 
+# Boulder_BCycle_Wait_Time_Prediction
+
+**About:**
+Boulder BCycle is a popular and convenient transportation service in Boulder, Colorado. It offers electric bikes stationed throughout the city, providing a sustainable and efficient means of commuting. Notably, the service is tailored to the needs of the community, as it offers a unique benefit to students by providing them with free rides for up to one hour per trip. This student-friendly policy makes it an attractive choice for the University of Colorado Boulder's student population, who frequently utilize Boulder BCycle to commute between their residences and the university. The service plays a key role in the city's transport system, supporting sustainability goals and meeting student needs.
+
+In Boulder's BCycle system, users often encounter reliability issues and struggle to predict bike station availability. This project, as part of the **CSCI 5502- Data Mining** course, focuses on transforming the BCycle experience by dissecting usage patterns and calculating waiting times for each station. By analyzing historical data and real-time inputs, we aim to provide users with valuable insights, enabling them to make informed decisions about when and where to pick up a bike. This initiative seeks to enhance the overall convenience and efficiency of the service, ultimately making BCycle an even more reliable and accessible mode of transportation for the Boulder community.
+
+**Challenges**:
+* **Data Availability**: Historical BCycle station status data is currently unavailable, as only real-time data is accessible. Consequently, we've been consistently collecting data in the background for our analysis.
+* **Data Inconsistency**: The data is gathered continuously in the background using an AWS EC2 instance, but it occasionally experiences interruptions, causing breaks in the data. Additionally, external factors such as Colorado's Daylight Saving Time introduce additional complexity.
+* **Data Sampling Limitations**: Numerous variables, such as public transport availability, weather conditions, and class schedules, influence BCycle usage. It's important to acknowledge that our data sample may not encompass all these influencing factors
+
