@@ -5,7 +5,7 @@ Boulder BCycle is a popular and convenient transportation service in Boulder, Co
 
 In Boulder's BCycle system, users often encounter reliability issues and struggle to predict bike station availability. This project, as part of the **CSCI 5502- Data Mining** course, **focuses on transforming the BCycle experience by dissecting usage patterns and calculating waiting times for each station**. By analyzing historical data and real-time inputs, we aim to provide users with valuable insights, enabling them to make informed decisions about when and where to pick up a bike. This initiative seeks to enhance the overall convenience and efficiency of the service, ultimately making BCycle an even more reliable and accessible mode of transportation for the Boulder community.
 
-[Presentation Link](https://www.youtube.com/watch?v=QEBMTk4OsAE)
+[Presentation Link](https://www.youtube.com/watch?v=QEBMTk4OsAE)       [Dashboard Link](https://public.tableau.com/views/DockWatch/DockWatch?:language=en-GB&publish=yes&:display_count=n&:origin=viz_share_link)
 
 **Challenges:**
 * **Data Availability**: Historical BCycle station status data is currently unavailable, as only real-time data is accessible. Consequently, we've been consistently collecting data in the background for our analysis.
