@@ -9,14 +9,16 @@ In Boulder's BCycle system, users often encounter reliability issues and struggl
 
 **Challenges**:
 * **Data Availability**: Historical BCycle station status data is currently unavailable, as only real-time data is accessible. Consequently, we've been consistently collecting data in the background for our analysis.
-* **Data Inconsistency**: The data is gathered continuously in the background using an AWS EC2 instance, but it occasionally experiences interruptions, causing breaks in the data. Additionally, external factors such as Colorado's Daylight Saving Time introduce additional complexity.
+* **Data Inconsistency**: The data is gathered continuously in the background using an AWS EC2 instance, but it occasionally experiences interruptions, causing breaks in the data. External factors such as Colorado's Daylight Saving Time also introduce additional complexity.
 * **Data Sampling Limitations**: Numerous variables, such as public transport availability, weather conditions, and class schedules, influence BCycle usage. It's important to acknowledge that our data sample may not encompass all these influencing factors
 
 **Approach Overview**
 1. **Data Collection & Storage**: Collect live data from GBFS (General Bikeshare Feed Specification) and store it in an SQL server to maintain historical records.
-2. **Data Preprocessing Pipeline**: Develop a data preprocessing pipeline to calculate additional variables and ensure data quality.
-3. **Exploratory Data Analysis**: Conduct Exploratory Data Analysis (EDA) to identify and understand usage patterns within the dataset.
+2. **Data Preprocessing Pipeline**: Develop a data preprocessing pipeline to calculate additional features and ensure data quality.
+3. **Exploratory Data Analysis**: Conduct Exploratory Data Analysis (EDA) using a dashboard to identify and understand usage patterns within the dataset.
 4. **Forecasting Model Development**: Build a predictive model to forecast waiting times for each station, utilizing the pre-processed data.
-5. **Dashboard Creation**: Develop a Tableau dashboard to visualize real-time and historical bike station data along with live wait times.
-6. **Cloud Deployment**: Deploy the Tableau dashboard, forecasting model, data preprocessing code, and data collection code to a cloud platform.
-7. **Automation**: Automate the entire data collection, preprocessing, modeling, and dashboard updating processes to execute them based on a trigger point within the dashboard.
+
+**Future Work**
+1. **Dashboard Creation**: Develop a dashboard to visualize real-time and historical bike station data along with live wait times.
+2. **Cloud Deployment**: Deploy the Tableau dashboard, forecasting model, data preprocessing code, and data collection code to a cloud platform.
+3. **Automation**: Automate the entire data collection, preprocessing, modeling, and dashboard updating processes to execute them based on a trigger point within the dashboard.
