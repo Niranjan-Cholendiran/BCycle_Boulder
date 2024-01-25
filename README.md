@@ -18,6 +18,11 @@ In Boulder's BCycle system, users often encounter reliability issues and struggl
 3. **Exploratory Data Analysis**: Conduct Exploratory Data Analysis (EDA) using a dashboard to identify and understand usage patterns within the dataset.
 4. **Forecasting Model Development**: Build a predictive model to forecast waiting times for each station, utilizing the pre-processed data.
 
+**Data Flow Architecture**
+
+![image](https://github.com/Niranjan-Cholendiran/Dock_Watch/assets/78549555/918cd3c9-5492-49f0-9b64-d1bce56b77f7)
+
+
 **Future Work:**
 1. **Dashboard Creation**: Develop a dashboard to visualize real-time and historical bike station data along with live wait times.
 2. **Cloud Deployment**: Deploy the Tableau dashboard, forecasting model, data preprocessing code, and data collection code to a cloud platform.
